@@ -110,6 +110,49 @@
       "supports_temperature": true
     },
     {
+      "model_name": "gemini-3.8-flash",
+      "friendly_name": "Gemini Flash 3.8",
+      "aliases": [
+        "flash3.8",
+        "flash-current"
+      ],
+      "intelligence_score": 12,
+      "description": "Google's most intelligent Flash model as of Sep 2026 (1M context) - long-horizon engineering, agents, complex workflows at Flash speed/cost. Replaces gemini-2.5-flash/gemini-2.0-flash, which Google has shut down for new API keys.",
+      "context_window": 1048576,
+      "max_output_tokens": 65536,
+      "max_thinking_tokens": 24576,
+      "supports_extended_thinking": true,
+      "supports_system_prompts": true,
+      "supports_streaming": true,
+      "supports_function_calling": true,
+      "supports_json_mode": true,
+      "supports_images": true,
+      "supports_temperature": true,
+      "max_image_size_mb": 20.0
+    },
+    {
+      "model_name": "gemini-3.1-pro-preview",
+      "friendly_name": "Gemini Pro 3.1 Preview",
+      "aliases": [
+        "pro3.1",
+        "pro-current"
+      ],
+      "intelligence_score": 18,
+      "description": "Deep reasoning + thinking mode (1M context) - Complex problems, architecture, deep analysis. Replaces gemini-3-pro-preview, which Google has shut down for new API keys.",
+      "context_window": 1048576,
+      "max_output_tokens": 65536,
+      "max_thinking_tokens": 32768,
+      "supports_extended_thinking": true,
+      "supports_system_prompts": true,
+      "supports_streaming": true,
+      "supports_function_calling": true,
+      "supports_json_mode": true,
+      "supports_images": true,
+      "supports_temperature": true,
+      "allow_code_generation": true,
+      "max_image_size_mb": 32.0
+    },
+    {
       "model_name": "gemini-2.5-flash",
       "friendly_name": "Gemini (Flash 2.5)",
       "aliases": [
