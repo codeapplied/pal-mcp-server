@@ -22,6 +22,22 @@
   },
   "models": [
     {
+      "model_name": "nvidia/nemotron-3-super-120b-a12b",
+      "aliases": [
+        "nemotron",
+        "nemotron-super"
+      ],
+      "context_window": 1000000,
+      "max_output_tokens": 32768,
+      "supports_extended_thinking": true,
+      "supports_json_mode": false,
+      "supports_function_calling": true,
+      "supports_images": false,
+      "max_image_size_mb": 0.0,
+      "description": "NVIDIA's flagship Nemotron 3 Super model via NVIDIA NIM's hosted cloud API (integrate.api.nvidia.com) - 1M context, agentic workflows, tool use, RAG. Not local; runs on NVIDIA's cloud, no GPU needed on this machine.",
+      "intelligence_score": 14
+    },
+    {
       "model_name": "llama3.2",
       "aliases": [
         "local-llama",
